@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdi Kumsa - Portfolio</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Abdi Kumsa</a>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#timeline" class="nav-link">Journey</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="hero-greeting">Hi, I'm Abdi Kumsa</span>
+                    <span class="hero-tagline">"Technology Makes Sense When It Helps People."</span>
+                </h1>
+                <p class="hero-subtitle">Computer Science & Engineering Student | Mentor | Problem-Solver</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/images/profile-photo.jpg" alt="Abdi Kumsa" class="profile-photo">
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                     <img src="assets/images/profile-photo_2.jpg" alt="Abdi Kumsa" class="profile-photo">
+                </div>
+                <div class="about-text">
+                    <p>Abdi Kumsa Milkesa is a Computer Science and Engineering student at Adama Science and Technology University, driven by a passion for problem-solving, technology, and knowledge-sharing.</p>
+                    <p>He founded an ICT Club in high school, training 80+ students and guiding 7 of them to earn acceptance into the AddisCoder program. He ranked among the top 0.025% of students nationwide with a score of 622/700.</p>
+                    <p>At ASTU, he continued mentoring fellow students while also entering professional work with Rubi Pictures. He contributed to CGTN and IFRC Zero Hunger documentary projects, transcribing over 15+ hours of audio.</p>
+                    <p>His consistency, communication, and reasoning earned him a promotion to Virtual Assistant, and later he became a co-founder with company ownership.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section id="timeline" class="timeline">
+        <div class="container">
+            <h2 class="section-title">My Journey</h2>
+            <div class="timeline-container">
+                <div class="timeline-item">
+                    <div class="timeline-year">2022</div>
+                    <div class="timeline-content">
+                        <h3>Founded ICT Club</h3>
+                        <p>Trained 50+ students in technology fundamentals</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2023</div>
+                    <div class="timeline-content">
+                        <h3>AddisCoder Success & ASTU Admission</h3>
+                        <p>Trained 30+ more students; 7 selected for AddisCoder Program. Scored 622/700 and joined ASTU.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2024</div>
+                    <div class="timeline-content">
+                        <h3>Continued Mentorship</h3>
+                        <p>Mentored fellow students at ASTU while excelling academically</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2025</div>
+                    <div class="timeline-content">
+                        <h3>Professional Growth & Leadership</h3>
+                        <p>Joined Computer Science & Engineering, worked on CGTN documentary and IFRC Zero Hunger Project, became a co-founder of Rubi Pictures.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Attendify Project -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-qrcode"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Attendify</h3>
+                        <p>A digital attendance tracking tool allowing students to check in using a QR code or a unique auto-generated code.</p>
+                        <div class="project-meta">
+                            <span class="project-role">Developer / System Designer</span>
+                            <span class="project-impact">Reduces manual effort, prevents proxy attendance</span>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Flutter</span>
+                            <span class="tech-tag">QR Code</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- GitHub Projects will be loaded here -->
+                <div id="githubProjects" class="project-card loading">
+                    <div class="project-content">
+                        <h3>Loading GitHub Projects...</h3>
+                        <p>Fetching my latest repositories from GitHub</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3>Technical Skills</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="78"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">HTML/CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Flutter</span>
+                            <div class="skill-bar">
+                                <div class="skill-level" data-level="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3>Professional Skills</h3>
+                    <div class="soft-skills">
+                        <span class="soft-skill-tag">Leadership</span>
+                        <span class="soft-skill-tag">Mentoring</span>
+                        <span class="soft-skill-tag">Problem Solving</span>
+                        <span class="soft-skill-tag">Teamwork</span>
+                        <span class="soft-skill-tag">Communication</span>
+                        <span class="soft-skill-tag">Project Management</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="experience-timeline">
+                <div class="experience-item">
+                    <div class="experience-period">2025 - Present</div>
+                    <div class="experience-content">
+                        <h3>Co-Founder at Rubi Pictures</h3>
+                        <span class="company">Rubi Pictures</span>
+                        <ul>
+                            <li>Strategic planning and business development</li>
+                            <li>Overseeing technical operations and projects</li>
+                            <li>Company leadership and decision-making</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-period">2025</div>
+                    <div class="experience-content">
+                        <h3>Virtual Assistant</h3>
+                        <span class="company">Rubi Pictures</span>
+                        <ul>
+                            <li>Project coordination and management</li>
+                            <li>Client communication and support</li>
+                            <li>Technical assistance and problem-solving</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <div class="experience-period">2025</div>
+                    <div class="experience-content">
+                        <h3>Transcriptionist</h3>
+                        <span class="company">Rubi Pictures</span>
+                        <ul>
+                            <li>Transcribed 8+ hours of audio for CGTN documentary</li>
+                            <li>Worked on IFRC Zero Hunger Project</li>
+                            <li>Demonstrated exceptional attention to detail</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-cards">
+                <div class="education-card">
+                    <div class="edu-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <h3>Adama Science and Technology University</h3>
+                    <p>Bachelor of Science in Computer Science & Engineering</p>
+                    <span class="edu-year">2023 - Present</span>
+                </div>
+                <div class="education-card">
+                    <div class="edu-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Oromia Development Association Special Boarding School</h3>
+                    <p>Ranked top 0.025% nationally with score of 622/700</p>
+                    <span class="edu-year">2022</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <p class="contact-subtitle">"Let's work together to create something amazing!"</p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <span>abdikumsa197@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <span>Adama, Ethiopia</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/abdi-kumsa" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <!-- UPDATED CONTACT FORM -->
+                <form class="contact-form" id="contactForm" action="https://formspree.io/f/mldopyee" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="_replyto" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <!-- Formspree hidden fields -->
+                    <input type="hidden" name="_subject" value="New Message from Portfolio">
+                    <input type="text" name="_gotcha" style="display:none">
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-copyright">
+                    <p>&copy; 2025 Abdi Kumsa. All rights reserved.</p>
+                    <p class="footer-code">// Built with passion and dedication</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
