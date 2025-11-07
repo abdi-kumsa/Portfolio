@@ -72,7 +72,7 @@ abdi-kumsa.github.io/
 
 ## 📞 Connect With Me
 
-- Email: abdikumsa197@gmail.com
+- Email: kumsaaabdii@gmail.com
 - GitHub: [abdi-kumsa](https://github.com/abdi-kumsa)
 - Location: Adama, Ethiopia
 
